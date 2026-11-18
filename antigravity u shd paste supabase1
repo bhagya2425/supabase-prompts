@@ -1,0 +1,11 @@
+Now configure the Supabase client for our existing React + Vite Campus Events project.
+
+1. Create a reusable Supabase client file at src/lib/supabase.js.
+2. Read the Supabase URL and publishable key from Vite environment variables.
+3. Use VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY as environment variable names.
+4. Create a .env.example file with placeholder values.
+5. Ensure .env is included in .gitignore.
+6. Do not hardcode API keys or database passwords.
+7. Do not create database tables or change existing frontend functionality yet.
+
+Show me the files created and explain what values I need to add.
