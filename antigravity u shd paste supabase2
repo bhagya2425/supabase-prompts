@@ -1,0 +1,6 @@
+Supabase provides a Project URL and a publishable key. Please configure our .env file using these variable names:
+
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+
+Keep the existing supabase.js client reading these exact names. Do not put actual credentials in the source code or .env.example. Do not modify other files.
