@@ -1,0 +1,49 @@
+insert into public.events
+(title, category, description, event_date, event_time, venue,
+ allowed_branches, allowed_years, requirements, team_size,
+ registration_deadline, is_open)
+values
+(
+ 'AI & Machine Learning Workshop',
+ 'Tech',
+ 'Learn the fundamentals of Artificial Intelligence and Machine Learning through practical activities.',
+ '2026-12-05', '10:00 AM', 'Computer Lab 2',
+ ARRAY['CSE', 'CSE (AI & ML)', 'CSE (Data Science)', 'CSE (IoT)', 'ECE', 'ISE'],
+ ARRAY[2, 3, 4],
+ 'Basic Python knowledge recommended',
+ 'Individual',
+ '2026-12-03', true
+),
+(
+ 'Web Development Hackathon',
+ 'Tech',
+ 'Build a creative web application and showcase your development skills.',
+ '2026-12-12', '09:30 AM', 'Seminar Hall',
+ ARRAY['CSE', 'CSE (AI & ML)', 'CSE (Data Science)', 'CSE (IoT)', 'ECE', 'ISE'],
+ ARRAY[2, 3, 4],
+ 'Basic programming knowledge',
+ '2-4 Members',
+ '2026-12-10', true
+),
+(
+ 'Cultural Talent Showcase',
+ 'Non-Tech',
+ 'Showcase your talents in music, dance, art and other creative activities.',
+ '2026-12-08', '11:00 AM', 'Main Auditorium',
+ ARRAY['CSE', 'CSE (AI & ML)', 'CSE (Data Science)', 'CSE (IoT)', 'ECE', 'ISE'],
+ ARRAY[1, 2, 3, 4],
+ 'No prior experience required',
+ 'Individual',
+ '2026-12-06', true
+),
+(
+ 'Photography Competition',
+ 'Non-Tech',
+ 'Capture creative moments and participate in our campus photography competition.',
+ '2026-12-15', '10:00 AM', 'College Campus',
+ ARRAY['CSE', 'CSE (AI & ML)', 'CSE (Data Science)', 'CSE (IoT)', 'ECE', 'ISE'],
+ ARRAY[1, 2, 3, 4],
+ 'Bring your own camera or smartphone',
+ 'Individual',
+ '2026-12-13', true
+);
