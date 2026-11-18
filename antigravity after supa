@@ -1,0 +1,19 @@
+Inspect my existing React + Vite Campus Events project and connect the frontend to my existing Supabase database.
+
+For now, ONLY implement dynamic event fetching.
+
+Requirements:
+
+1. Use the existing Supabase client in "src/lib/supabase.js".
+2. Fetch events from the existing "public.events" table.
+3. Display Tech events under the Tech Events section.
+4. Display Non-Tech events under the Non-Tech Events section.
+5. Fetch only events where "is_open = true".
+6. Preserve my existing Stitch-generated UI and design. Do not redesign the website.
+7. Add loading and error states.
+8. Do not create new database tables or change existing SQL policies.
+9. Do not hardcode Supabase credentials.
+10. Check that the environment variable names match the existing ".env" file.
+
+First inspect the existing code, then make the required changes and run a build check.
+
